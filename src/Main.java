@@ -42,11 +42,12 @@ public class Main {
             ausgabe += "\n";
 
         }
-        String neueAusgabe = ausgabe.replace("[x] \t [x] \t [x]", "[ XXX ] \t");
+        String neueAusgabe = ausgabe.replace("[x] \t [x] \t [x]", "[Macho] \t");
 
-        System.out.println(Arrays.toString(kinosaal[2]));
+
         System.out.println(neueAusgabe);
-        System.out.println("Es stehen: " + dreierfrei + " Dreierzur verfügung.");
+        System.out.println("Es sind " + dreierfrei + " Machoplätze frei");
 
     }
 }
+
